@@ -1,0 +1,49 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="QuickStartApplication.controller.View1"><App id="idAppControl">
+		<pages><Page title="Amazon Alexa" showFooter="false">
+				<content><Panel xmlns="sap.m" width="auto" expanded="true" id="panel0">
+					    <headerToolbar>
+					        <Toolbar id="toolbar1">
+					            <content>
+					                <Text xmlns="sap.m" text="Please input the medication details" id="text3"/>
+					            </content>
+					            </Toolbar>
+					        
+					    </headerToolbar>
+					    <content>
+					        <Label text="Medicine Name" width="100%" id="label0_1559955524462"/>
+					        <Input xmlns="sap.m" id="input0"/>
+					        <Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="Dosage" width="100%" id="label0_1559955524462_copy"/>
+					        <Input xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" id="input0_copy"/>
+					<Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="Number of pills" width="100%" id="label0_1559955524462_copy2"/>
+					<Select xmlns="sap.m" id="select0" selectedKey="1">
+					    <items>
+					        <core:Item xmlns:core="sap.ui.core" key="item-key-1" text="1" id="item0"/>
+					        <core:Item xmlns:core="sap.ui.core" key="item-key-2" text="2" id="item1"/>
+					        <core:Item xmlns:core="sap.ui.core" key="item-key-2" text="3" id="item2"/>
+					        <core:Item xmlns:core="sap.ui.core" key="item-key-2" text="4" id="item3"/>
+					        </items>
+					    
+					</Select>
+					<Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="Days " width="100%" id="label0_1559955524462_copy3"/>
+					        <CheckBox xmlns="sap.m" text="Mon" selected="false" id="box0"/>
+					        <CheckBox xmlns="sap.m" text="Tue" selected="false" id="box1"/>
+					        <CheckBox xmlns="sap.m" text="Wed" selected="false" id="box2"/>
+					        <CheckBox xmlns="sap.m" text="Thu" selected="false" id="box3"/>
+					        <CheckBox xmlns="sap.m" text="Fri" selected="false" id="box4"/>
+					        <CheckBox xmlns="sap.m" text="Sat" selected="false" id="box5"/>
+					        <CheckBox xmlns="sap.m" text="Sun" selected="false" id="box6"/>
+					<Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" text="Times" width="100%" id="label0_1559955524462_copy5"/>
+					<TimePicker xmlns="sap.m" id="picker0" displayFormat="h:mm"/>
+					<Label xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" width="100%" id="label0_1559955524462_copy6" text="-"/>
+					<sap.ui.core:InvisibleText xmlns:sap.ui.core="sap.ui.core" text="InvisibleText" id="text0"/>
+					<Button xmlns="sap.m" text="Create Routine" id="Button011"/>
+					<Button xmlns="sap.m" text="Cancel Routine" id="button2"/>
+					    </content>
+					    </Panel>
+				</content>
+			<headerContent><Image src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/avs/docs/ux/branding/mark1._TTH_.png" width="40px" height="40px" id="image0"/>
+			</headerContent>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
